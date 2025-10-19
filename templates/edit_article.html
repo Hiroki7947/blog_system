@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %}記事編集{% endblock %}
+{% block content %}
+<h2>記事を編集</h2>
+<form method="POST" class="mt-3">
+  <div class="mb-3">
+    <label class="form-label">タイトル</label>
+    <input type="text" name="title" value="{{ article.title }}" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label class="form-label">本文</label>
+    <textarea name="body" rows="10" class="form-control" required>{{ article.body }}</textarea>
+  </div>
+  <button class="btn btn-primary">更新</button>
+</form>
+{% endblock %}
