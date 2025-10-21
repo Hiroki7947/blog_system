@@ -37,7 +37,9 @@ Flask を使用して構築されたシンプルかつモダンなデザイン�
 | 認証 | Werkzeug のパスワードハッシュ |
 
 ---
-
+##アクセス方法
+以下のリンクからアクセスすることができます。
+[Flask Blog](https://hiroki.pythonanywhere.com/)
 
 ## ⚙️ セットアップ手順
 
